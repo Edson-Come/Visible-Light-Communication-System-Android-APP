@@ -13,7 +13,8 @@ Android application for wireless RGB LED control over **Bluetooth Low Energy (BL
 The app provides a real-time colour-picking interface (HSV colour wheel + brightness control) and streams 8-bit RGB values to an ESP32 over BLE. The ESP32 parses the incoming values and drives an RGB LED accordingly.
  
 This is one component of a larger multi-subsystem final year project involving visible light communication (VLC). The Android application handles the wireless control layer.
-(./vlcimg.jpg)
+
+![Network Topology](./vlcimg.jpeg)
  
 ---
  
